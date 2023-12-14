@@ -1,9 +1,8 @@
-const tupleMap = [
-  ['key1', 'value1'],
-  ['key2', 'value2'],
-  ['key3', 'value3'],
+const dataStructure = [
+  [50, 98, 2],
+  [52, 50, 48]
 ];
 
 // Accessing values
-console.log(tupleMap[1][1]); // Output: value2
-
+console.log(dataStructure[0][1]); // Output: 98
+console.log(dataStructure[1][2]); // Output: 48
